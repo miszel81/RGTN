@@ -13,5 +13,5 @@ export default  {
     password: 'miszel81',
     type: "postgresql",
     debug: !__prod__
-  } as Parameters<typeof MikroORM.init>[0];
+  } as Parameters<typeof MikroORM.init>[0]; // --> Parameters returns arrays do we need [0]
  
